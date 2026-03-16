@@ -17,7 +17,7 @@ struct Nod {
 	Masina info;
 	struct Nod* next;
 };
-typedef struct Nod Nod;
+typedef struct Nod Nod;// de ce se trece asta
 
 // --- FUNCTII AJUTATOARE ---
 
@@ -80,7 +80,7 @@ void adaugaMasinaInLista(Nod** cap, Masina masinaNoua) {
 
 Nod* citireListaMasiniDinFisier(const char* numeFisier) {
 	FILE* file = fopen(numeFisier, "r");
-	if (!file) return NULL;
+	if (!file) return NULL;//sunt identice
 
 	Nod* cap = NULL;
 	while (!feof(file)) {
