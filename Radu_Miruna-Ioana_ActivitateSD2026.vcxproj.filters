@@ -36,8 +36,21 @@
     <ClCompile Include="Seminarul003.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ExercitiuS3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExercitiuS4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Seminar4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Seminar05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />
+    <Text Include="studenti.txt" />
   </ItemGroup>
 </Project>

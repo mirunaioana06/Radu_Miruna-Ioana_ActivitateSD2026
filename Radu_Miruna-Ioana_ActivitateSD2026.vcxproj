@@ -127,16 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ExercitiuS3.c" />
+    <ClCompile Include="ExercitiuS4.c" />
     <ClCompile Include="Seminar002.c" />
     <ClCompile Include="Seminar01.c" />
     <ClCompile Include="Seminar02.c" />
     <ClCompile Include="Seminar03.c" />
+    <ClCompile Include="Seminar05.c" />
+    <ClCompile Include="Seminar4.c" />
     <ClCompile Include="SeminarClasa01.c" />
     <ClCompile Include="Seminarul003.c" />
     <ClCompile Include="Seminar_de_test_video.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />
+    <Text Include="studenti.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
