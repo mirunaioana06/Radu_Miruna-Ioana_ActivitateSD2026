@@ -282,6 +282,7 @@ int main() {
 	printf("Lista dupa stergerea masinii cu id-ul %d:\n\n", idDeSters);
 	afisareListaMasini(lista);
 
+
 	printf("Eliberam memoria...\n");
 	dezalocareListaMasini(&lista);
 	printf("Gata!\n");
