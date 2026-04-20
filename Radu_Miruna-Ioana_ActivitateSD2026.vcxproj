@@ -129,15 +129,20 @@
   <ItemGroup>
     <ClCompile Include="ExercitiuS3.c" />
     <ClCompile Include="ExercitiuS4.c" />
+    <ClCompile Include="PregatireTest.c" />
     <ClCompile Include="Seminar002.c" />
     <ClCompile Include="Seminar01.c" />
     <ClCompile Include="Seminar02.c" />
     <ClCompile Include="Seminar03.c" />
     <ClCompile Include="Seminar05.c" />
+    <ClCompile Include="seminar06.c" />
+    <ClCompile Include="seminar07.c" />
     <ClCompile Include="Seminar4.c" />
     <ClCompile Include="SeminarClasa01.c" />
     <ClCompile Include="Seminarul003.c" />
     <ClCompile Include="Seminar_de_test_video.c" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="StudiuIndividual01.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />

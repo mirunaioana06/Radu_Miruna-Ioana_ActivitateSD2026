@@ -140,7 +140,7 @@ void dezalocareListaMasini(ListaDubla* ld) {
 
 
 	}
-	ld->prim = ld->ultim = NULL;
+	ld->prim = ld->ultim = NULL;			
 
 
 }
