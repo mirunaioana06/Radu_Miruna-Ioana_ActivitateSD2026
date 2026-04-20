@@ -63,6 +63,9 @@
     <ClCompile Include="PregatireTest.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PregatireTest2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />

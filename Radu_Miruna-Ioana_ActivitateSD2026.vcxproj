@@ -130,6 +130,7 @@
     <ClCompile Include="ExercitiuS3.c" />
     <ClCompile Include="ExercitiuS4.c" />
     <ClCompile Include="PregatireTest.c" />
+    <ClCompile Include="PregatireTest2.c" />
     <ClCompile Include="Seminar002.c" />
     <ClCompile Include="Seminar01.c" />
     <ClCompile Include="Seminar02.c" />

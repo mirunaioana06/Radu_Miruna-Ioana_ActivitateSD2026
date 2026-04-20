@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -9,7 +9,7 @@ struct Student {
     char sex;
 };
 
-
+// ───── INITIALIZARE UN STUDENT ─────
 struct Student initStudent(int id, char* nume, float medie, char sex) {
     struct Student s;
     s.id = id;
@@ -20,7 +20,7 @@ struct Student initStudent(int id, char* nume, float medie, char sex) {
     return s;
 }
 
-
+// ───── ALOCARE VECTOR ─────
 struct Student* initVector(int n) {
     struct Student* v = (struct Student*)malloc(n * sizeof(struct Student));
     if (v == NULL) {
@@ -30,7 +30,7 @@ struct Student* initVector(int n) {
     return v;
 }
 
-
+// ───── AFISARE VECTOR ─────
 void afisare(struct Student* v, int n) {
     for (int i = 0; i < n; i++) {
         printf("[%d] ID:%d | Nume:%s | Medie:%.2f | Sex:%c\n",
@@ -38,18 +38,18 @@ void afisare(struct Student* v, int n) {
     }
 }
 
-
+// ───── MODIFICARE UN CAMP ─────
 void modificaMedie(struct Student* v, int index, float medie_noua) {
-    v[index].medie = medie_noua; 
+    v[index].medie = medie_noua;  // v[index] = sertarul, .medie = câmpul din sertar
 }
 
-
+// ───── DEZALOCARE ─────
 void dezalocare(struct Student** v, int n) {
     for (int i = 0; i < n; i++) {
-        free(v[i]->nume);  
+        free(v[i]->nume);       // eliberezi campurile alocate dinamic din fiecare struct
         v[i]->nume = NULL;
     }
-    free(*v);              
+    free(*v);                   // eliberezi vectorul
     *v = NULL;
 }
 
