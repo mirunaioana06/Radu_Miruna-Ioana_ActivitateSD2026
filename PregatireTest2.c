@@ -103,7 +103,7 @@ int main() {
     v[1] = initializare(2, "Ana Ionescu", 5200.0f, 'V');
     v[2] = initializare(3, "Radu Georgescu", 4100.0f, 'I');
     v[3] = initializare(4, "Maria Constantin", 2900.0f, 'A');
-
+     
     printf("=== Toti angajatii ===\n");
     afisareVector(v, n);
 
