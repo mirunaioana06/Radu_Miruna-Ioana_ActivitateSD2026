@@ -131,6 +131,7 @@
     <ClCompile Include="ExercitiuS4.c" />
     <ClCompile Include="PregatireTest.c" />
     <ClCompile Include="PregatireTest2.c" />
+    <ClCompile Include="PregatireTestX.c" />
     <ClCompile Include="Seminar002.c" />
     <ClCompile Include="Seminar01.c" />
     <ClCompile Include="Seminar02.c" />
@@ -138,7 +139,11 @@
     <ClCompile Include="Seminar05.c" />
     <ClCompile Include="seminar06.c" />
     <ClCompile Include="seminar07.c" />
+    <ClCompile Include="Seminar10.c" />
+    <ClCompile Include="SEMINAR11.c" />
     <ClCompile Include="Seminar4.c" />
+    <ClCompile Include="Seminar8.c" />
+    <ClCompile Include="Seminar9.c" />
     <ClCompile Include="SeminarClasa01.c" />
     <ClCompile Include="Seminarul003.c" />
     <ClCompile Include="Seminar_de_test_video.c" />
@@ -147,6 +152,8 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />
+    <Text Include="masini_arbore.txt" />
+    <Text Include="muchii.txt" />
     <Text Include="studenti.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
